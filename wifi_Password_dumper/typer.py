@@ -2,7 +2,7 @@ from adafruit_hid.keycode import Keycode as K
 import time
 
 def type(keyboard, words):
-
+	#TODO add support for case  
 	for letter in words:
 		time.sleep(0.05)
 		if letter.upper() == 'A' :
